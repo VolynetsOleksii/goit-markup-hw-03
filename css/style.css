@@ -47,6 +47,9 @@ body {
 }
 /* Site navigation menu section*/
 
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
 .logo {
   color: var(--accent-color);
   text-decoration: none;
@@ -56,6 +59,8 @@ body {
   line-height: 1.19;
 }
 .navigation .logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
   margin-right: 93px;
 }
 .logo-end {
@@ -65,6 +70,7 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--primary-header-color);
+  display: block;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -187,7 +193,7 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-.our-activities{
+.our-activities {
   padding-top: 0;
 }
 .our-activities .section-title {
@@ -202,32 +208,36 @@ body {
 .our-team .section-title {
   margin-bottom: 50px;
 }
+.our-team .item {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  background: var(--primary-background-color);
+}
 .our-team .title {
-  margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
+
 .our-team .text {
   font-size: 16px;
   line-height: 1.19;
-  margin-bottom: 30px;
 }
 /* Footer section */
 .footer-logo {
   color: var(--secondary-text-color);
 }
-.footer-list {
+.footers .contacts {
   margin-top: 20px;
 }
 .footers {
-  background: var(--secondary-background-color);
-}
-.footers .container {
   padding-top: 60px;
   padding-bottom: 60px;
+  background: var(--secondary-background-color);
 }
+
 .footer-list .adress.link {
   color: var(--secondary-text-color);
 }
@@ -274,16 +284,12 @@ body {
   line-height: 1.88;
 }
 .filter {
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
   gap: 8px;
 }
-.portfolio {
-  margin-top: 94px;
-}
 .projects {
-  margin-bottom: 94px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
